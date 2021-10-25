@@ -1,11 +1,12 @@
-# Week Eight Day Three: Rational Class (Version 2)
+# Week Nine Day One: Bank Account Class
 
-In this assignment, you'll be adding to your implementation of the Rational class. Please see Canvas for details on the classwork/homework.
+In this assignment, you'll be implementing a class to represent a bank account. In addition, you will add some code to this assignment for the homework. Please see Canvas for details on the homework.
 
-Add code to [Rational.java](src/main/java/Rational.java) to do the desired thing.
+In class, you will first add code to [BankAccount.java](src/main/java/BankAccount.java) to implement the BankAccount class. Then, you will add some code to [BankClient.java](src/main/java/BankClient.java) that allows the user to interact with their bank account. You will likely want to use Scanner to allow the user to carry out different operations!
+
 
 ## Run your code with:
-The easiest way to run your code is to press the play button in [RationalClient.java](src/main/java/RationalClient.java).
+The easiest way to run your code is to press the play button in [BankClient.java](src/main/java/BankClient.java).
 
 However, you can also run your code by typing the following into the Terminal.
 
@@ -17,19 +18,4 @@ Alternatively, if that doesn't work, use:
 
 ```shell script
 ./gradlew run
-```
-
-## Run your tests with:
-The easiest way to run your code is to press the play button in [MyTests.java](src/test/java/MyTests.java).
-
-However, you can also run your code by typing the following into the Terminal.
-
-```shell script
-make test
-```
-
-Alternatively, if that doesn't work, use:
-
-```shell script
-./gradlew test
 ```
