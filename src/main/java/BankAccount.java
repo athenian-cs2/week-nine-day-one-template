@@ -2,5 +2,5 @@ public class BankAccount {
     // Instance variables
     private int balance;
     private int accountNumber;
-    private int preferredName;
+    private String preferredName;
 }
